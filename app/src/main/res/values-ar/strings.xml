@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">حرية</string>
+    <string name="Statistiques_prisonniers">احصائيات جميع الاسرى</string>
+    <string name="Livres_de_prisonniers">كتب الاسرى</string>
+    <string name="carte_d_identité_captif">بطاقة تعريفية للاسير</string>
+    <string name="image">صور</string>
+    <string name="video">فيديوهات</string>
+    <string name="choosethelanguage">choose the language</string>
+    <string name="Arabic">العربية</string>
+    <string name="English">الإنجليزية</string>
+    <string name="splash_text">جمعية مدنية أنشأت عام 2006 للدفاع عن قضايا الأسرى وذويهم</string>
+    <string name="The_total_number_of_female_prisoners_inside_prisons">العدد الكلي للأسيرات داخل السجون</string>
+    <string name="The_total_number_of_administrative_detainees">العدد الكلي للأسرى المعتقلين إداري</string>
+    <string name="The_total_number_of_prisoners_over_35_years_old">العدد الكلي للأسرى الأكثر من 35 عام</string>
+    <string name="The_total_number_of_prisoners_over_20_years_old">العدد الكلي للأسرى الأكثر من 20 عام</string>
+    <string name="The_total_number_of_prisoners_expected_to_be_released_this_year">العدد الكلي للأسرى المتوقع خروجهم العام الحالي</string>
+    <string name="The_total_number_of_prisoners_who_entered_a_new_detention_year">العدد الكلي للأسرى الذين دخلوا عام اعتقالي جديد</string>
+    <string name="The_total_number_of_prisoners_is_sentenced_to_life_imprisonment">العدد الكلي للأسرى محكوم مؤبد مدى الحياة</string>
+    <string name="The_total_number_of_prisoners">العدد الكلي للأسرى</string>
+    <string name="who_are">من عمق إحساسنا بالجرح والألم الذي يعاني منه أسرانا وذويهم حيث يعيش الأسرى في غياهب سجون مظلمة ومختطفين في أقفاص حديدية مؤلمة لا مجير لهم ولا ناصر إلا الله .. يتفنن العدو الصهيوني في قهرهم وعزلهم عن العالم الخارجي ، ويستصرخون إخوانهم المسلمين ولا مجيب، بل يطبق الصمت الرهيب إلا من رحم الله .
+من هنا حرصنا على إنشاء جمعية واعد للأسرى والمحررين في قطاع غزة، لتحقق العدالة للأسرى وذويهم, وهي جمعية مستقلة غير ربحية تأسست عام 2006 ومن أهم أعمالها الدفاع عن قضية الأسرى والمحررين من خلال النشاط الإعلامي والجماهيري إيماناً منا بفرضية العمل لأجلهم ونصرتهم امتثالاً لقول رسول الله صلى الله عليه وسلم :  " أطعموا الجائع وعودوا المريض  وفكوا العاني " وقول الإمام مالك رحمه الله : " واجب على الناس أن يفدوا الأسرى بجميع أموالهم وهذا لا خلاف فيه .." وقال العلماء: "عليهم أن يواسوهم فإن المواساة دون المفاداة. "</string>
+    <string name="Prisoners">* جمعية واعد للأسرى والمحررين</string>
+    <string name="goals">* أهدافنا :</string>
+    <string name="achieve">
+        تهدف واعد لتحقيق ما يلي:
+1.	مساندة الأسرى والمحررين وذويهم معنويا وإعلاميا وجماهيريا.
+2.	إقامة المؤتمرات والندوات التي تساهم في إبراز قضايا الأسرى والمحررين.
+3.	توفير الخدمات الشاملة للأسرى والمحررين سواء أكاديمية أو اجتماعية أو ثقافية.
+4.	الاتصال بالهيئات الرسمية والمؤسسات الدولية والهيئات الأهلية ذات الاختصاص من اجل المساهمة في حل مشاكل الأسرى والمحررين ومساعدتهم.
+5.	تأهيل الأسرى المحررين أكاديمياً ومهنياً.
+06المساهمة في تنمية أفراد المجتمع الفلسطيني من خلال إقامة المشاريع والدورات التنموية والأكاديمية والمهنية التي تساهم في تطوير قدرات الشباب.</string>
+    <string name="message">* رسالتنا :</string>
+    <string name="Working">العمل من أجل نصرة قضية الأسرى والأسيرات في سجون الاحتلال الإسرائيلي على كافة المستويات المحلية والعربية والدولية  وفق فتوى شيخ الإسلام ابن تيمية " فكاك الأسارى من أعظم الواجبات ، وبذل المال الموقوف وغيره في ذلك أعظم القربات ".</string>
+    <string name="Projects">* مشاريع نعمل على انجازها/</string>
+    <string name="kindergarten">1- روضة أطفال في مدينة غزة، تقدم خدماتها لذوي الأسرى بأسعار رمزية ، ولتكون مقدمة لروضات أخرى في المحافظات الفلسطينية المختلفة.
+    2-مشروع تحسين السكن لذوي الأسرى
+     3-مشروع الدعم النفسي لأهالي الأسرى.
+4- مشروع تأهيل الأسرى المحررين.
+5- مشروع إنشاء قاعة متعددة الأغراض.
+6- إعادة بناء وترميم استراحة الحرية ( لخدمة المحررين وذوي الأسرى ) .</string>
+    <string name="headquarters">* مقر الجمعية وفروعها</string>
+    <string name="association_city">تعمل الجمعية حاليا في مقرها الرئيسي بمدينة غزة و فروعها الخمس الأخرى في محافظات القطاع  ـ الشمال ـ الوسطى ـ خان يونس _  و رفح ، على أمل أن تغطي خدماتها في حال توفر الظروف الملائمة في بقية محافظات الوطن في الضفة الغربية والقدس المحتلة.
+
+عناوين وفروع الجمعية
+المقر العــام
+فلسطين – غزة – شارع الصناعة  - مقابل منتزه برشلونة
+تليفاكس :  0097082886797 **   جوال: 00970599332169   أو: 00970599445885
+
+الفــروع
+
+خان يونس / مبنى البلدية القديمة –  وسط البلد
+تليفاكس :2033066
+
+الوسطى / الدوار العـام – عمارة أبو دلال
+  هاتف  :2560416
+
+الشمال / معسكر جباليا – السوق
+ هاتف : 2460503
+
+رفح / مقابل مدرسة بئر السبع - مبنى الداخلية – الطابق الثاني
+  هاتف : 2139716
+
+الموقع الالكتروني : www.waed.ps
+البريد الالكتروني : waed111@hotmail.com
+
+رقم الحساب :  البنك الإسلامي الفلسطيني ( 11420 )</string>
+    <string name="name_asser">اسم الاسير</string>
+    <string name="location">المدينة</string>
+    <string name="hkm">الحكم</string>
+    <string name="moabd">مؤبد</string>
+    <string name="male">ذكر</string>
+    <string name="edare">اداري</string>
+    <string name="date">التاريخ</string>
+    <string name="add_image">اضافة صورة</string>
+    <string name="add">حفظ</string>
+    <string name="geographical_location_of_wa_ed_prisoners_association">الموقع الجغرافي لجمعية واعد للاسري</string>
+    <string name="google_map">خريطة جوجل</string>
+    <string name="settings">الاعدادات</string>
+    <string name="who_are_we">من نحن</string>
+    <string name="locationss">الموقع</string>
+    <string name="admin">الأدمن</string>
+    <string name="email">ايميل</string>
+    <string name="password">باسوورد</string>
+    <string name="next">التالي</string>
+    <string name="news">الخبر العاجل</string>
+    <string name="books">كتب pdf</string>
+    <string name="aseer">اسير</string>
+    <string name="videos">فيديوهات</string>
+    <string name="images">الصور</string>
+    <string name="images_slider">الصور المتحركة</string>
+
+</resources>

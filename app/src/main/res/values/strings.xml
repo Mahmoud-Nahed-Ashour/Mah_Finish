@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Horia</string>
+    <string name="Statistiques_prisonniers">Statistiques de tous les prisonniers</string>
+    <string name="Livres_de_prisonniers">Livres de prisonniers</string>
+    <string name="carte_d_identité_captif">identification card captive</string>
+    <string name="image">images</string>
+    <string name="video">video</string>
+    <string name="choosethelanguage">choose the language</string>
+    <string name="Arabic">Arabic</string>
+    <string name="English">English</string>
+    <string name="splash_text">Une association civile créée en 2006 pour défendre les problèmes des détenus et de leurs familles</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="The_total_number_of_female_prisoners_inside_prisons">العدد الكلي للأسيرات داخل السجون</string>
+    <string name="The_total_number_of_administrative_detainees">العدد الكلي للأسرى المعتقلين إداري</string>
+    <string name="The_total_number_of_prisoners_over_35_years_old">العدد الكلي للأسرى الأكثر من 35 عام</string>
+    <string name="The_total_number_of_prisoners_over_20_years_old">العدد الكلي للأسرى الأكثر من 20 عام</string>
+    <string name="The_total_number_of_prisoners_expected_to_be_released_this_year">العدد الكلي للأسرى المتوقع خروجهم العام الحالي</string>
+    <string name="The_total_number_of_prisoners_who_entered_a_new_detention_year">العدد الكلي للأسرى الذين دخلوا عام اعتقالي جديد</string>
+    <string name="The_total_number_of_prisoners_is_sentenced_to_life_imprisonment">العدد الكلي للأسرى محكوم مؤبد مدى الحياة</string>
+    <string name="The_total_number_of_prisoners">العدد الكلي للأسرى</string>
+    <string name="who_are">From the depth of our sense of the wound and the pain that our prisoners and their families suffer from, where the prisoners live in the darkness of dark prisons and the abductees in painful iron cages, they have no refuge or helper except God. Terrible except from God\'s mercy From here, we were keen to establish a Wa’ed Association for prisoners and ex-prisoners in the Gaza Strip to achieve justice for the prisoners and their families. It is an independent, non-profit association founded in 2006, and one of its most important works is to defend the cause of the prisoners and ex-prisoners through media and public activity. May God bless him and grant him peace: Feed the hungry, visit the sick, and free the one who suffers.” And Imam Malik, may God have mercy on him, said: It is obligatory for the people to ransom the prisoners with all their money, and there is no dispute about it.</string>
+    <string name="Prisoners">Wa\'ed Association for Prisoners and Ex-Prisoners</string>
+    <string name="goals">* Our goals:</string>
+    <string name="achieve">Wa\'ed aims to achieve the following:
+1. Supporting the prisoners, the ex-prisoners, and their families morally, in the media, and in the masses.
+2. Holding conferences and seminars that contribute to highlighting the issues of prisoners and ex-prisoners.
+3. Providing comprehensive services for prisoners and ex-prisoners, whether academic, social or cultural.
+4. Contacting official bodies, international institutions, and specialized civil bodies in order to contribute to solving the problems of prisoners and ex-prisoners and assisting them.
+5. Rehabilitation of the released prisoners academically and professionally.
+06Contribute to the development of the members of the Palestinian society through the establishment of projects and developmental, academic and professional courses that contribute to the development of youth capabilities.</string>
+    <string name="message">* Our message:</string>
+    <string name="Working">Working to support the cause of the male and female prisoners in the Israeli occupation prisons at all local, Arab and international levels, according to the fatwa of Sheikh Al-Islam Ibn Taymiyyah, “Releasing the prisoners is one of the greatest duties, and spending the endowed money and other things in that is the greatest act of worship.”</string>
+    <string name="Projects">Projects we are working on</string>
+    <string name="kindergarten">1- A kindergarten in Gaza City, providing services to the families of prisoners at nominal prices, and to be an introduction to other kindergartens in the various Palestinian governorates.
+     2- A project to improve housing for the families of prisoners
+      3- A psychological support project for the families of prisoners.
+4- A project to rehabilitate the released prisoners.
+5- A multi-purpose hall construction project.
+6- Rebuilding and restoring the Freedom Rest House (to serve the liberated and the families of the prisoners).</string>
+    <string name="headquarters">* The headquarters of the association and its branches</string>
+    <string name="association_city">The association is currently operating at its headquarters in Gaza City and its five other branches in the governorates of the northern, central, Khan Yunis, and Rafah sectors, hoping that it will cover its services in the event that appropriate conditions are available in the rest of the homeland’s governorates in the West Bank and occupied Jerusalem.
+
+Addresses and branches of the association
+Headquarters
+Palestine - Gaza - Industry Street - opposite Barcelona Park
+Telefax: 0097082886797 ** Mobile: 00970599332169 or: 00970599445885
+
+Branches
+
+Khan Yunis / Old Municipality Building - Downtown
+Telefax: 2033066
+
+Central / General Circle - Abu Dalal Building
+   Tel: 2560416
+
+North / Jabalia Camp - Market
+  Tel: 2460503
+
+Rafah / in front of Beer Sheba School - Interior Building - Second Floor
+   Tel: 2139716
+
+Website: www.waed.ps
+Email: waed111@hotmail.com
+
+Account number: Palestine Islamic Bank (11420)</string>
+    <string name="name_asser">Name Asser</string>
+    <string name="location">Location</string>
+    <string name="hkm">Hkm</string>
+    <string name="moabd">moabd</string>
+    <string name="male">male</string>
+    <string name="edare">edare</string>
+    <string name="date">Date</string>
+    <string name="add_image">Add IMage</string>
+    <string name="add">Add</string>
+    <string name="geographical_location_of_wa_ed_prisoners_association">Geographical location of Wa\'ed Prisoners Association</string>
+    <string name="google_map">Google Map</string>
+    <string name="settings">Settings</string>
+    <string name="who_are_we">Who Are We</string>
+    <string name="locationss">Location</string>
+    <string name="admin">Admin</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="next">Next</string>
+    <string name="news">News</string>
+    <string name="books">Books</string>
+    <string name="aseer">Aseer</string>
+    <string name="videos">Videos</string>
+    <string name="images">Images</string>
+    <string name="images_slider">Images Slider</string>
+</resources>
+
+
+    <!--<string name="The_total_number_of_female_prisoners_inside_prisons">The total number of female prisoners inside prisons</string>-->
+    <!--<string name="The_total_number_of_administrative_detainees">The total number of administrative detainees</string>-->
+    <!--<string name="The_total_number_of_prisoners_over_35_years_old">The total number of prisoners over 35 years old</string>-->
+    <!--<string name="The_total_number_of_prisoners_over_20_years_old">The total number of prisoners over 20 years old</string>-->
+    <!--<string name="The_total_number_of_prisoners_expected_to_be_released_this_year">The total number of prisoners expected to be released this year</string>-->
+    <!--<string name="The_total_number_of_prisoners_who_entered_a_new_detention_year">The total number of prisoners who entered a new detention year</string>-->
+    <!--<string name="The_total_number_of_prisoners_is_sentenced_to_life_imprisonment">The total number of prisoners is sentenced to life imprisonment</string>-->
+    <!--<string name="The_total_number_of_prisoners">The total number of prisoners</string>-->

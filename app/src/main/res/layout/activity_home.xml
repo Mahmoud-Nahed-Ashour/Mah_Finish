@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen_home"
+    tools:context=".User.HomeActivity">
+
+
+    <TextView
+        android:id="@+id/newsNewTv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="#FF0000"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textSize="25sp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/registerMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/newsNewTv">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="-16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cards"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/sliderr"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_delay="100"
+                        app:iss_period="3000"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+                </androidx.cardview.widget.CardView>
+
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/black"
+                    app:layout_constraintTop_toBottomOf="@id/cards" />
+
+                <LinearLayout
+                    android:id="@+id/Linear1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/statistiquesAnimation"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="30dp"
+                        android:rotation="0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/view"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/statistics" />
+
+                    <TextView
+                        android:id="@+id/statistics"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/Statistiques_prisonniers"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/statistiquesAnimation" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/Linear2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view"
+                    >
+
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/cardAnimation"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="28dp"
+                        android:rotation="0"
+                        android:layout_marginStart="32dp"
+                        app:layout_constraintEnd_toStartOf="@+id/book"
+                        app:layout_constraintHorizontal_bias="0.542"
+                        app:layout_constraintStart_toEndOf="@+id/statistiquesAnimation"
+                        app:layout_constraintTop_toBottomOf="@+id/view"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/card" />
+
+                    <TextView
+                        android:id="@+id/card"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/carte_d_identité_captif"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBaseline_toBaselineOf="@id/statistics"
+                        app:layout_constraintEnd_toStartOf="@+id/book"
+                        app:layout_constraintStart_toEndOf="@+id/statistics"
+                        app:layout_constraintTop_toBottomOf="@+id/statistiquesAnimation" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Linear3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/pdfAnimation"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="28dp"
+                        android:rotation="0"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.542"
+                        app:layout_constraintTop_toBottomOf="@+id/view"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/pdf" />
+
+                    <TextView
+                        android:id="@+id/book"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="@string/Livres_de_prisonniers"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBaseline_toBaselineOf="@id/card"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/card" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/black"
+                    app:layout_constraintTop_toBottomOf="@id/Linear1" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardImge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view2">
+
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/image"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/statistics" />
+
+                    <View
+                        android:id="@+id/views"
+                        android:layout_width="50dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="25dp"
+                        android:background="#FF0000"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/text" />
+
+                    <ImageView
+                        android:id="@+id/imageViews"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/imagenews"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/views" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardVideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="80dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/cardImge">
+
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/video"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cardImge" />
+
+                    <View
+                        android:id="@+id/views3"
+                        android:layout_width="60dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="28dp"
+                        android:background="#FF0000"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/text" />
+
+
+                    <ImageView
+                        android:id="@+id/video"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vidio_image"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/views2" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/texts22"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="16dp"-->
+                <!--                    android:gravity="center"-->
+                <!--                    android:text="جمعية واعد للاسري والمحررين "-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textSize="30sp"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintStart_toStartOf="parent"-->
+                <!--                    app:layout_constraintTop_toBottomOf="@id/cardVideo" />-->
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:orientation="vertical"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintStart_toStartOf="parent"-->
+                <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--                    android:layout_marginBottom="70dp"-->
+                <!--                    android:background="@color/white"-->
+                <!--                    app:layout_constraintTop_toBottomOf="@id/texts22">-->
+
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/loca"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginTop="16dp"-->
+                <!--                        android:gravity="center"-->
+                <!--                        android:text="غزة-شـ الصناعة-شرق منتزه برشلونة"-->
+                <!--                        android:textColor="@color/black"-->
+                <!--                        android:textSize="22sp"-->
+                <!--                        android:textStyle="bold"-->
+                <!--                        />-->
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/locas"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginTop="8dp"-->
+                <!--                        android:gravity="center"-->
+                <!--                        android:text="+970-599717878"-->
+                <!--                        android:textColor="@color/black"-->
+                <!--                        android:textSize="22sp"-->
+                <!--                        android:textStyle="bold"-->
+                <!--                        />-->
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/locasss"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginTop="8dp"-->
+                <!--                        android:gravity="center"-->
+                <!--                        android:text="www.waed.ps"-->
+                <!--                        android:textColor="@color/black"-->
+                <!--                        android:textSize="22sp"-->
+                <!--                        android:textStyle="bold"-->
+                <!--                        />-->
+
+                <!--                </LinearLayout>-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

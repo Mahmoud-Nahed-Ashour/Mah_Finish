@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "727981206713",
+    "project_id": "horria-bf7cf",
+    "storage_bucket": "horria-bf7cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727981206713:android:6835b611fdbfdf26733f68",
+        "android_client_info": {
+          "package_name": "com.mohgorrah.mah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727981206713-45v9ikodvasa5gjcqvclo9h8175fn3rf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGmudV_FI3L4ccAp98HzlARXFi9EnsDRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727981206713-45v9ikodvasa5gjcqvclo9h8175fn3rf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
